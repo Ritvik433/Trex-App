@@ -52,7 +52,7 @@ function setup() {
   ground.addImage("ground",groundImage);
   ground.x = ground.width /2;
   
-  gameOver = createSprite(width/2,height/2);
+  gameOver = createSprite(width/2,height-300);
   gameOver.addImage(gameOverImg);
   
   restart = createSprite(width/2,height-250);
